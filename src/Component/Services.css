@@ -1,0 +1,146 @@
+.section-padding-bg {
+    padding-top: 5rem;       /* py-20 */
+    padding-bottom: 5rem;
+    background-color: #f9fafb; /* bg-gray-50 */
+  }
+  
+  .custom-container {
+    max-width: 80rem;       /* Equivalent to Tailwind's max-w-7xl */
+    margin-left: auto;      /* mx-auto */
+    margin-right: auto;
+    padding-left: 1rem;     /* px-4 */
+    padding-right: 1rem;
+  }
+  
+  @media (min-width: 640px) {  /* sm breakpoint */
+    .custom-container {
+      padding-left: 1.5rem;   /* sm:px-6 */
+      padding-right: 1.5rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {  /* lg breakpoint */
+    .custom-container {
+      padding-left: 2rem;     /* lg:px-8 */
+      padding-right: 2rem;
+    }
+  }
+  
+  .custom-text-block {
+    text-align: center;   /* text-center */
+    margin-bottom: 4rem;  /* mb-16 = 4rem (64px) */
+  }
+  
+  .custom-H {
+    font-size: 2.35rem;       /* equivalent to text-4xl */
+    font-weight: 900;        /* equivalent to font-bold */
+    background: linear-gradient(
+        to bottom right,
+        #c0c0c0,       /* metallic silver */
+        #b22222,       /* firebrick red */
+        #006400        /* dark green */
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      -webkit-text-fill-color: transparent;
+    
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2),
+                   0 2px 6px rgba(0, 0, 0, 0.3);          /* equivalent to text-gray-900 */
+    margin-bottom: 1rem;      /* equivalent to mb-4 */
+  }
+
+  .custom-paragraph {
+    font-size: 1.25rem;       /* text-xl */
+    color:  #c0c0c0;           /* text-gray-600 */
+    max-width: 48rem;         /* max-w-3xl */
+    margin-left: auto;        /* mx-auto */
+    margin-right: auto;
+    font-weight: 600;
+  }
+  
+  .custom-grid {
+    display: grid;
+    gap: 2rem; /* gap-8 = 2rem */
+  }
+  
+  @media (min-width: 768px) {
+    .custom-grid {
+      grid-template-columns: repeat(3, 1fr); /* md:grid-cols-3 */
+    }
+  }
+  
+  .service-card {
+    background-color: #ffffff;       /* bg-white */
+    padding: 2rem;                   /* p-8 (2rem = 32px) */
+    border-radius: 0.5rem;           /* rounded-lg (8px) */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md */
+    transition: background-color 0.5s ease;   /* transition + duration-500 */
+  }
+  
+  
+  .service-card:hover {
+    background-color: #f3f4f6;       /* hover:bg-gray-100 */
+  }
+  
+  .custom-circle {
+    width: 5rem;                  /* w-20 (20 * 0.25rem) = 5rem */
+    height: 5rem;                 /* h-20 */
+    background-color: #fee2e2;   /* bg-red-100 */
+    border-radius: 9999px;        /* rounded-full */
+    
+    display: flex;                /* flex */
+    align-items: center;          /* items-center */
+    justify-content: center;      /* justify-center */
+    
+    margin-bottom: 1.5rem;        /* mb-6 */
+    margin-left: auto;            /* mx-auto */
+    margin-right: auto;
+  }
+  
+  .my-class {
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #dc2626;
+  }
+  
+  .signature-cut-style {
+    font-size: 1.5rem;      /* text-2xl */
+    font-weight: 700;       /* font-bold */
+    color: #111827;         /* text-gray-900 */
+    margin-bottom: 1rem;    /* mb-4 */
+    text-align: center;     /* text-center */
+  }
+  
+  .custom-style {
+    color: #4B5563;       /* text-gray-600 */
+    margin-bottom: 1.5rem; /* mb-6 */
+  }
+
+  .flex-between-center {
+    display: flex;              /* flex */
+    justify-content: space-between; /* justify-between */
+    align-items: center;        /* items-center */
+  }
+  
+  .custom-text {
+    font-size: 1.5rem;      /* text-2xl */
+    font-weight: 700;       /* font-bold */
+    color: #111827;         /* text-gray-900 */
+  }
+  
+  .add-to-cart {
+    background-color: #1f2937;   /* bg-gray-800 */
+    color: #ffffff;              /* text-white */
+    padding-left: 1rem;          /* px-4 */
+    padding-right: 1rem;
+    padding-top: 0.5rem;         /* py-2 */
+    padding-bottom: 0.5rem;
+    border-radius: 0.375rem;     /* rounded-md */
+    transition: background-color 0.3s ease; /* transition duration-300 */
+  }
+  
+  .add-to-cart:hover {
+    background-color: #dc2626;   /* hover:bg-red-600 */
+  }
+  
