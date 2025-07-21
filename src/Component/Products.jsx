@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Component/products.css';
+import "./Products.css";
 import { useCart } from '../context/useCart';
 
 const Products = () => {
