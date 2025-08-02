@@ -43,14 +43,16 @@
 
  
   
-  .hero-image,
-  .hero-text {
+  .hero-image {flex: 1;
     width: 100%;
     text-align: center;
     align-items: center;
   }
-  
+  .celeb{
+     font-size: 1.125rem;
+  }
   .hero-text {
+    width: 100%;
     align-items: center;
     text-align: center;
   }
@@ -105,7 +107,7 @@
 }
 
 
-.hero-text p {
+.celeb{
     font-weight: bolder;
   font-size: 1.25rem;
   color: #c0c0c0;
