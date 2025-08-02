@@ -76,7 +76,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
-          <p>© 2025 Manegasm. All rights reserved.</p>
+          <p>© 2025 Onyx. All rights reserved.</p>
         </div>
       </div>
     </footer>
