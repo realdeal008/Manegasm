@@ -20,8 +20,8 @@ const Hero = () => {
         {/* Text Div */}
         <div className="hero-text">
           <h1>
-            Healthy Hair Is Yours With 
-          </h1>
+            Healthy Hair Is Yours <span className='penned'>With</span>
+          </h1>  
           <span className="logo">MANEGASM</span>
           <p className='celeb'>
             Celebrity-inspired hair artistry and modeling services for the modern elite
