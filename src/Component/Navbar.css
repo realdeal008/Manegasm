@@ -47,19 +47,14 @@
 .logo-text {
     font-size: 1.875rem; /* text-3xl */
     font-weight: 700; /* bold */
-    background: linear-gradient(
-      to bottom right,
-      #c0c0c0,       /* metallic silver */
-      #b22222,       /* firebrick red */
-      #006400        /* dark green */
-    );
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent;
-  
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2),
-                 0 2px 6px rgba(0, 0, 0, 0.3);
+    color: #2c2c2c; /* Ultra Dark Gunmetal Black */
+
+  text-shadow:
+    0 0 3px #ffffff,                /* Outer Silver Shine */
+    0 0 8px rgba(192, 192, 192, 0.5), /* Soft Metallic Glow */
+    2px 2px 4px rgba(0, 0, 0, 0.9),   /* Deep Black Shadow */
+    -1px -1px 1px #000000,            /* Engraved Edge */
+    1px 1px 0 #999999;    
     letter-spacing: 1px;
     text-transform: uppercase;
     font-family: 'Cinzel', serif; /* Optional: Use a luxury serif font */
@@ -86,10 +81,10 @@
   
   /* navbar.css */
 .nav-link {
-    color: #e6e6e6; /* text-gray-800 */
+    color: #e6e6e6;
     padding: 0.5rem 0.75rem; /* py-2 px-3 */
-    font-size: 0.875rem; /* text-sm */
-    font-weight: 500; /* font-medium */
+    font-size: 1rem; /* text-sm */
+    font-weight: 900; /* font-medium */
     transition: all 0.3s ease; /* transition duration-300 */
     text-decoration: none;
   }

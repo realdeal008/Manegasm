@@ -101,32 +101,39 @@
   font-size: 3rem;
   font-weight: bold;
   margin-bottom: 1rem;
-  color: #F6C700;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  color: #F6C700; /* Luxury Gold */
+
+  text-shadow:
+    1px 1px 2px rgba(0, 0, 0, 0.7),  /* Deep base shadow */
+    0 2px 4px rgba(0, 0, 0, 0.5),    /* Slight depth */
+    0 -1px 1px rgba(255, 255, 255, 0.3);
 }
 
 .penned {
-  color:rgb(0, 255, 128); /* Base Metallic Silver */
   font-weight: 900;
-  text-shadow:
-    0 1px 0 #ffffff,
-    0 2px 1px rgba(0, 255, 127, 0.4),
-    0 3px 3px rgba(192, 192, 192, 0.6),
-    0 5px 5px rgb(0, 255, 128),
-    0 7px 8px rgba(0, 0, 0, 0.2);
-}
-
-@keyframes shimmer {
-  0% { background-position: -500px 0; }
-  100% { background-position: 500px 0; }
-}
-
-.shimmer {
-  background: linear-gradient(90deg, #C0C0C0 25%, #FFFFFF 50%, #C0C0C0 75%);
-  background-size: 1000px 100%;
-  animation: shimmer 2.5s infinite linear;
+  background: linear-gradient(
+    90deg,
+    #2e2e2e 0%,       /* Dark gunmetal edge */
+    #00ff80 20%,      /* Vibrant Green Metallic */
+    #c0c0c0 40%,      /* Metallic Silver Shine */
+    #ffffff 50%,      /* Sharp White Reflection */
+    #c0c0c0 60%,      /* Metallic Silver Shine */
+    #00ff80 80%,      /* Vibrant Green Metallic */
+    #2e2e2e 100%      /* Dark gunmetal edge */
+  );
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-clip: text;
   -webkit-background-clip: text;
+  color: transparent;
   -webkit-text-fill-color: transparent;
+
+  text-shadow:
+    0 1px 0 #ffffff,                           /* Light highlight */
+    0 2px 1px rgba(0, 255, 127, 0.4),         /* Soft green shine */
+    0 3px 3px rgba(192, 192, 192, 0.6),       /* Metallic glow */
+    0 5px 5px rgba(0, 0, 0, 0.4),             /* Soft black shadow */
+    0 7px 8px rgba(0, 0, 0, 0.2);    
 }
 
 
@@ -142,22 +149,14 @@
 .logo {
   font-size: 3rem; /* text-3xl */
   font-weight: 700; /* bold */
-  background: linear-gradient(
-    to bottom right,
-    #a5a5a5,       /* brighter silver */
-    #ff3333,       /* bright red */
-    #00cc44        /* vivid green */
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
+  color: #2c2c2c; /* Ultra Dark Gunmetal Black */
 
-  text-shadow: 
-    0 1px 1px rgba(255, 255, 255, 0.6),  /* soft white inner glow */
-    0 2px 4px rgba(0, 0, 0, 0.4),        /* subtle black depth */
-    0 0 10px #f00707;   /* outer bright glow */
-
+  text-shadow:
+    0 0 3px #ffffff,                /* Outer Silver Shine */
+    0 0 8px rgba(192, 192, 192, 0.5), /* Soft Metallic Glow */
+    2px 2px 4px rgba(0, 0, 0, 0.9),   /* Deep Black Shadow */
+    -1px -1px 1px #000000,            /* Engraved Edge */
+    1px 1px 0 #999999;    
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: 'Cinzel', serif; /* Luxury serif */
