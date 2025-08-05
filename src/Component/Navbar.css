@@ -45,19 +45,19 @@
 
   /* logo.css */
 .logo-text {
-    font-size: 1.875rem; /* text-3xl */
-    font-weight: 700; /* bold */
-    color: #2c2c2c; /* Ultra Dark Gunmetal Black */
+font-size: 1.875rem; /* text-3xl */
+font-weight: 700; /* bold */
+color: #000000; /* Pure Black */
 
-  text-shadow:
-    0 0 3px #ffffff,                /* Outer Silver Shine */
-    0 0 8px rgba(192, 192, 192, 0.5), /* Soft Metallic Glow */
-    2px 2px 4px rgba(0, 0, 0, 0.9),   /* Deep Black Shadow */
-    -1px -1px 1px #000000,            /* Engraved Edge */
-    1px 1px 0 #999999;    
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-family: 'Cinzel', serif; /* Optional: Use a luxury serif font */
+text-shadow:
+  0 0 2px #a67c00,                /* Subtle Gold Edge */
+  0 0 4px rgba(166, 124, 0, 0.4), /* Soft Golden Glow */
+  -1px -1px 1px #000000,          /* Engraved Edge */
+  1px 1px 0 #333333;              /* Inner Dark Contrast */
+
+letter-spacing: 1px;
+text-transform: uppercase;
+font-family: 'Cinzel', serif;/* Optional: Use a luxury serif font */
   }
   
   /* responsive.css */
