@@ -98,30 +98,31 @@
 }
 
 .hero-text h1 {
-  font-size: 3rem;
+  font-size: 3.2rem;
   font-weight: bold;
   margin-bottom: 1rem;
   color: #F6C700; /* Luxury Gold */
 
   text-shadow:
-    1px 1px 2px rgba(0, 0, 0, 0.7),  /* Deep base shadow */
-    0 2px 4px rgba(0, 0, 0, 0.5),    /* Slight depth */
-    0 -1px 1px rgba(255, 255, 255, 0.3);
+    1px 1px 2px rgba(0, 0, 0, 0.7),      /* Deep base shadow */
+    0 2px 4px rgba(0, 0, 0, 0.5),        /* Slight depth */
+    0 -1px 1px rgba(255, 255, 255, 0.3), /* Soft top highlight */
+    inset 0 -1px 0 rgba(255, 255, 255, 0.4);
 }
 
 .penned {
   font-weight: 900; /* bold */
-color: #000000; /* Pure Black */
+  color: #000000; /* Pure Black */
+  font-family: 'Cinzel', serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 
-text-shadow:
-  0 0 2px #a67c00,                /* Subtle Gold Edge */
-  0 0 4px rgba(166, 124, 0, 0.4), /* Soft Golden Glow */
-  -1px -1px 1px #000000,          /* Engraved Edge */
-  1px 1px 0 #333333;              /* Inner Dark Contrast */
-
-letter-spacing: 1px;
-text-transform: uppercase;
-font-family: 'Cinzel', serif;
+  text-shadow:
+    0 0 2px #4d4d4d,              /* Subtle Silver Edge Glow */
+    0 0 4px rgba(77, 77, 77, 0.5),/* Soft Metallic Sheen */
+    -1px -1px 1px #000000,         /* Engraved Shadow */
+    1px 1px 0 #1a1a1a,             /* Inner Dark Contrast */
+    inset 0 -1px 0 #666666;  
 }
 
 
@@ -135,20 +136,19 @@ font-family: 'Cinzel', serif;
 }
 
 .logo {
-  font-size: 3rem; /* text-3xl */
+  font-size: 3.2rem; /* text-3xl */
   font-weight: 700; /* text-3xl */
-font-weight: 700; /* bold */
-color: #b22222; /* Firebrick Red (Base Color) */
+  color: #b22222; /* Firebrick Red (Base Color) */
+  font-family: 'Cinzel', serif; /* Luxury serif */
+  text-transform: uppercase;
+  letter-spacing: 1px;
 
-text-shadow:
-  0 0 2px #d4af37,               /* Subtle Gold/Silver Gleam */
-  0 0 4px rgba(192, 192, 192, 0.5), /* Soft Silver Metallic Glow */
-  -1px -1px 1px rgba(0, 0, 0, 0.8),  /* Engraved Shadow */
-  1px 1px 0 rgba(0, 0, 0, 0.6);      /* Inner Dark Depth */
-
-letter-spacing: 1px;
-text-transform: uppercase;
-font-family: 'Cinzel', serif; /* Luxury serif */
+  text-shadow:
+    0 0 2px #d4af37,                 /* Subtle Gold Gleam */
+    0 0 4px rgba(192, 192, 192, 0.5),/* Soft Silver Metallic Glow */
+    -1px -1px 1px rgba(0, 0, 0, 0.8),/* Engraved Shadow */
+    1px 1px 0 rgba(0, 0, 0, 0.6),    /* Inner Dark Depth */
+    inset 0 -1px 0 rgba(255, 255, 255, 0.3)
 }
 
 
