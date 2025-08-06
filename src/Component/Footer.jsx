@@ -66,11 +66,10 @@ const Footer = () => {
           <div>
             <h4 className="footer-heading">Contact</h4>
             <address className="footer-address">
-              <p>123 Styling Avenue</p>
-              <p>Los Angeles, CA 90048</p>
+              <p>Washington, DC 20007</p>
               <p>United States</p>
-              <p>Phone: +1 (310) 555-1212</p>
-              <p>Email: info@manegasm.com</p>
+              <p>Phone: +1 (240) 353-3920 </p>
+              <p>Email: Manegasm2020@gmail.com</p>
             </address>
           </div>
         </div>

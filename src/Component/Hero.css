@@ -98,7 +98,7 @@
 }
 
 .hero-text h1 {
-  font-size: 3.2rem;
+  font-size: 3.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
   color: #F6C700; /* Luxury Gold */
@@ -111,7 +111,6 @@
 }
 
 .penned {
-  font-weight: 900; /* bold */
   color: #000000; /* Pure Black */
   font-family: 'Cinzel', serif;
   text-transform: uppercase;
@@ -122,33 +121,54 @@
     0 0 4px rgba(77, 77, 77, 0.5),/* Soft Metallic Sheen */
     -1px -1px 1px #000000,         /* Engraved Shadow */
     1px 1px 0 #1a1a1a,             /* Inner Dark Contrast */
-    inset 0 -1px 0 #666666;  
+    inset 0 -1px 0 #666666;   
+    font-size: 1.875rem; /* text-3xl */
+
+font-weight: 700;  /* Firebrick Red (Base Color) */
+
+text-shadow:
+  0 0 2px #d4af37,               /* Subtle Gold/Silver Gleam */
+  0 0 4px rgba(192, 192, 192, 0.5), /* Soft Silver Metallic Glow */
+  -1px -1px 1px rgba(0, 0, 0, 0.8),  /* Engraved Shadow */
+  1px 1px 0 rgba(0, 0, 0, 0.6);      /* Inner Dark Depth */
+
+letter-spacing: 1px;
+text-transform: uppercase;
+font-family: 'Cinzel', serif;
 }
 
 
 .celeb{
-    font-weight: bolder;
-  font-size: 1.25rem;
-  color: #c0c0c0;
-  margin-bottom: 2rem;
-  max-width: 600px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+font-weight: bolder;
+font-size: 1.25rem;
+color: #1a1a1a; /* Metallic Black Base */
+    /* Inner Dark Depth */
+
+margin-bottom: 2rem;
+max-width: 600px;
+
 }
 
 .logo {
   font-size: 3.2rem; /* text-3xl */
-  font-weight: 700; /* text-3xl */
-  color: #b22222; /* Firebrick Red (Base Color) */
+  font-weight: 700;
   font-family: 'Cinzel', serif; /* Luxury serif */
   text-transform: uppercase;
   letter-spacing: 1px;
 
-  text-shadow:
-    0 0 2px #d4af37,                 /* Subtle Gold Gleam */
-    0 0 4px rgba(192, 192, 192, 0.5),/* Soft Silver Metallic Glow */
-    -1px -1px 1px rgba(0, 0, 0, 0.8),/* Engraved Shadow */
-    1px 1px 0 rgba(0, 0, 0, 0.6),    /* Inner Dark Depth */
-    inset 0 -1px 0 rgba(255, 255, 255, 0.3)
+    background: linear-gradient(
+        to bottom right,
+        #c0c0c0,       /* metallic silver */
+        #f30606,       /* firebrick red */
+        #006400        /* dark green */
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      -webkit-text-fill-color: transparent;
+    
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2),
+                   0 2px 6px rgba(0, 0, 0, 0.3);     
 }
 
 
