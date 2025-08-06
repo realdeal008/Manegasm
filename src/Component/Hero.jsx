@@ -19,8 +19,8 @@ const Hero = () => {
 
         {/* Text Div */}
         <div className="hero-text">
-          <h1>
-            Healthy Hair Is Yours <span className='penned'>With</span> <span className="logo">MANEGASM</span>
+          <h1 className='hair'>
+            Healthy Hair Is Yours <div className='sec'><span className='penned'>With</span> <span className="logo">MANEGASM</span></div>
           </h1>  
           
           <p className='celeb'>
