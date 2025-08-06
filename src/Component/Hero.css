@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&display=swap');
+
 .hero-container {
   position: relative;
   height: 100vh;
@@ -36,6 +38,13 @@
 
 /* Responsive layout for mobile */
 @media (max-width: 768px) {
+
+  .sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+  }
   .hero-content {
     flex-direction: column;
     padding: 0 1rem;
@@ -111,30 +120,21 @@
 }
 
 .penned {
-  color: #000000; /* Pure Black */
-  font-family: 'Cinzel', serif;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+  color: #000000; /* Dark Gunmetal Base Color */
+   
+  -webkit-text-stroke: 0.5px #131212; /* Stroke outline to simulate thickness */
 
   text-shadow:
-    0 0 2px #4d4d4d,              /* Subtle Silver Edge Glow */
-    0 0 4px rgba(77, 77, 77, 0.5),/* Soft Metallic Sheen */
-    -1px -1px 1px #000000,         /* Engraved Shadow */
-    1px 1px 0 #1a1a1a,             /* Inner Dark Contrast */
-    inset 0 -1px 0 #666666;   
-    font-size: 1.875rem; /* text-3xl */
+    0 0 1px #f3f0f0,                 /* Soft Metallic Sheen */
+    0 0 3px rgba(255, 253, 253, 0.4), /* Outer Silver Glow */
+    -1px -1px 1px rgba(0, 0, 0, 0.7), /* Engraved Edge Shadow */
+    1px 1px 0 rgba(207, 206, 206, 0.6);     /* Depth Shadow */
 
-font-weight: 700;  /* Firebrick Red (Base Color) */
-
-text-shadow:
-  0 0 2px #d4af37,               /* Subtle Gold/Silver Gleam */
-  0 0 4px rgba(192, 192, 192, 0.5), /* Soft Silver Metallic Glow */
-  -1px -1px 1px rgba(0, 0, 0, 0.8),  /* Engraved Shadow */
-  1px 1px 0 rgba(0, 0, 0, 0.6);      /* Inner Dark Depth */
-
-letter-spacing: 1px;
-text-transform: uppercase;
-font-family: 'Cinzel', serif;
+  letter-spacing: 0.5px; /* Inner Dark Depth */
 }
 
 
@@ -183,6 +183,7 @@ max-width: 600px;
     flex-direction: row;
     justify-content: center;
   }
+
 }
 
 .btn {
