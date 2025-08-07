@@ -123,6 +123,8 @@
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
   font-weight: 400;
+  font-size: 2.150rem;
+  line-height: 1.6;
   font-style: italic;
   color: #000000; /* Dark Gunmetal Base Color */
    
@@ -141,11 +143,17 @@
 .celeb{
 font-weight: bolder;
 font-size: 1.25rem;
-color: #1a1a1a; /* Metallic Black Base */
-    /* Inner Dark Depth */
+color: #e0dbdb; /* Metallic Grey Base */
 
-margin-bottom: 2rem;
+text-shadow:
+  0 0 1px #a9a9a9,                /* Soft Silver Sheen */
+  0 0 3px rgba(211, 211, 211, 0.4), /* Subtle Outer Glow */
+  -1px -1px 1px rgba(0, 0, 0, 0.6), /* Engraved Edge Shadow */
+  1px 1px 0 rgba(85, 84, 84, 0.5);     /* Depth Shadow */
+
+margin-bottom: 1rem;
 max-width: 600px;
+
 
 }
 
@@ -220,7 +228,13 @@ border: #c0c0c0;
   transform: scale(1.05);
 }
 
-/* Responsive typography */
+/* Responsive typography for medium screens and up */
+@media (min-width: 768px) {
+  .hero-text h1 {
+    font-size: 3.5rem;
+  }
+}
+
 @media (max-width: 768px) {
   .hero-text h1 {
     font-size: 2.25rem;
